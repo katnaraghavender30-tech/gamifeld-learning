@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Learn with Fun</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Header / App Bar -->
+        <header class="app-bar">
+            <button id="backBtn" class="icon-btn" aria-label="Go back" title="Back">
+                <span class="icon">⟵</span>
+            </button>
+            <h1 class="app-title">Learn with Fun</h1>
+            <div class="spacer"></div>
+        </header>
+
+        <!-- Main Content -->
+        <main id="view" class="view"></main>
+
+        <!-- Bottom Nav (simple helpers) -->
+        <nav class="bottom-nav">
+            <button class="nav-btn" data-link="#/home" aria-label="Home">🏠 Home</button>
+            <button class="nav-btn" data-link="#/rewards" aria-label="Rewards">⭐ Rewards</button>
+            <button class="nav-btn" data-link="#/help" aria-label="Help">❓ Help</button>
+        </nav>
+    </div>
+
+    <!-- Minimal templating uses JS to inject content -->
+    <script src="app.js"></script>
+</body>
+<!-- Simple, bright, touch-first UI. No heavy frameworks. -->
+</html>
+
+
+
+
+
+
